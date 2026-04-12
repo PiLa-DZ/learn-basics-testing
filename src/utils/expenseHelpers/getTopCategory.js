@@ -8,5 +8,5 @@ export const getTopCategory = (expenses) => {
     acc[curr.category] = (acc[curr.category] || 0) + curr.amount;
     return acc;
   }, {});
-  return Object.keys(totals).reduce((a, b) => (totals[a] > totals[b] ? a : b));
+  return Object.keys(totals).reduce((a, b) => (totals[a] >= totals[b] ? a : b));
 };
