@@ -25,8 +25,12 @@ export const filterByMonth = (expenses, month) => {
 
 ### Key Concepts
 
+- **Test Organization**:
+  We use `describe` blocks to group related tests,
+  which improves readability and helps structure the test suite hierarchy.
+
 - **Array Filtering**:
-  We verify that the function successfully returns
+  We verify that the function successfully returns...
   only the items that meet the criteria.
 
 - **Deep Assertion**:

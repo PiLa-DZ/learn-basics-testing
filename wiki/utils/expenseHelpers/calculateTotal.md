@@ -20,16 +20,19 @@ export const calculateTotal = (expenses) => {
 
 ### Key Concepts
 
-1. **`node:test`**:
-   A built-in Node.js module that provides a test runner.
-   It allows you to define tests without needing third-party libraries
-   like Jest or Mocha.
-   - **`test(name, fn)`**:
-     The core function used to define an individual test.
-     It takes a description of what the test verifies
-     and a function containing the test logic.
+- **Test Organization**:
+  We use `describe` blocks to group related tests,
+  which improves readability and helps structure the test suite hierarchy.
 
-2. **`node:assert`**:
+- **`node:test`**: A built-in Node.js module that provides a test runner...
+  It allows you to define tests without needing third-party libraries
+  like Jest or Mocha.
+  - **`test(name, fn)`**:
+    The core function used to define an individual test.
+    It takes a description of what the test verifies
+    and a function containing the test logic.
+
+1. **`node:assert`**:
    A built-in module used for verifying expectations in your tests.
    - **`assert.strictEqual(actual, expected)`**:
      Checks that the `actual` value is strictly equal (`===`) to the `expected` value.

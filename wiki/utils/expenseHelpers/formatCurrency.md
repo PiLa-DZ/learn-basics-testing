@@ -19,8 +19,12 @@ export const formatCurrency = (amount) => {
 
 ### Key Concepts
 
+- **Test Organization**:
+  We use `describe` blocks to group related tests,
+  which improves readability and helps structure the test suite hierarchy.
+
 - **Precision Control**:
-  We use `toFixed(2)` to enforce a consistent display format,
+  We use `toFixed(2)` to enforce a consistent display format...
   which is critical for financial applications.
 
 - **Input Flexibility**:

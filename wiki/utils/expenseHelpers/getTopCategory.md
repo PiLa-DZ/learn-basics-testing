@@ -26,8 +26,12 @@ export const getTopCategory = (expenses) => {
 
 ### Key Concepts
 
+- **Test Organization**:
+  We use `describe` blocks to group related tests,
+  which improves readability and helps structure the test suite hierarchy.
+
 - **Data Aggregation**:
-  Verifies that the logic correctly groups expenses
+  Verifies that the logic correctly groups expenses...
   by category before calculating the winner.
 
 - **Consistency**:

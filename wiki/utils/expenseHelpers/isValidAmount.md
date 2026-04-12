@@ -21,8 +21,12 @@ export const isValidAmount = (amount) => {
 
 ### Key Concepts
 
+- **Test Organization**:
+  We use `describe` blocks to group related tests,
+  which improves readability and helps structure the test suite hierarchy.
+
 - **Input Normalization**:
-  We verify that the function handles both numbers and strings
+  We verify that the function handles both numbers and strings...
   containing numeric values (e.g., `"5.5"`) correctly.
 
 - **Robust Edge Case Testing**:
