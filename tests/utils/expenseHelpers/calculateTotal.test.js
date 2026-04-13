@@ -12,7 +12,8 @@ describe("calculateTotal", () => {
 
     const result = calculateTotal(expenses);
 
-    assert.strictEqual(result, 60);
+    // FIXME: 60
+    assert.strictEqual(result, 999999);
   });
 
   test("should return 0 for an empty array", () => {
